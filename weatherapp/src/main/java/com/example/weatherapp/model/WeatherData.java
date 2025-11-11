@@ -1,9 +1,13 @@
 package com.example.weatherapp.model;
 
 import java.util.List;
+
 import java.util.Map;
 
 public class WeatherData {
+	
+	// bodyToMono turns the JSON from the api to an instance of this class, maps to variables based on field names from response
+	
     private double latitude;
     private double longitude;
     private Map<String, String> hourly_units;
